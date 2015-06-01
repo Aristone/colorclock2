@@ -1,1 +1,71 @@
 
+.container {
+	
+	display: block;
+	position:absolute;
+	max-width:300px;
+	margin: 110px 110px 110px 110px ;
+	padding: 300px 550px 500px 200px ;
+
+}
+
+.clock {
+	display:block;
+	position:absolute;
+	max-width: 500px;
+	margin: 0% 10% 0% 5% ;
+	border-radius: 100%;
+}
+
+.time {
+	position:absolute;
+	margin: 54px 1px 1px 50px;
+	padding: 10px 10px 10px 10px;
+	top: px;
+	right: 3px;
+	font-size: 4em;
+	max-width: 100%;
+	font-family: 'Knewave', cursive;
+	color:white;
+	opacity:1;
+}
+
+.hex {	
+	position:absolute;
+	margin: 50px -7px 0px 0px;
+	padding: 14px 0px 100px 0px;
+	font-size: 4em;
+	max-width: 100%;
+	font-family: 'Knewave', cursive;
+	color: ;
+	opacity:1;
+
+}
+
+ .time:hover {
+    opacity: 0;
+
+}
+       
+ .hex:hover {
+    opacity: 1
+}
+ 	       
+        
+.hex {
+    opacity: 0;
+        
+}
+
+
+
+
+hr{
+
+	margin: 160px 200px 100px 20px;
+	transition: all .99 ease;
+}
+
+* {
+	transition: all .99 ease;
+}
